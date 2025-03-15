@@ -1088,7 +1088,7 @@ audio {
 .balloons h2 {
 	text-transform: uppercase;
 	font-family: 'Signika', sans-serif;
-	font-size: 50px;
+	font-size: 40px;
 	color: #BF4136;
 	text-shadow: 5px 5px 5px #FFF;
 	display: none;
@@ -1103,7 +1103,6 @@ audio {
 	background-image: url('b3.png');
 }
 #b4,#b44{
-	background-image: url('b4.png');
 }
 #b5,#b55{
 	background-image: url('b5.png');
@@ -1263,7 +1262,7 @@ audio {
 	bottom: 0;
 	padding:10px 0px 10px 0px;
 }
-#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
+#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story{
 	display: none;
 }
 
@@ -1304,6 +1303,15 @@ audio {
     }
 
 
+
+	#shayari{
+		color: aqua;
+	  position: relative;
+	  left:130px;
+		
+	}
+
+	
 
     /*controlling tablet width*/
     /*@media only screen and (max-width: 720px){
